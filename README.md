@@ -32,13 +32,14 @@ Berikut contoh **Wordcloud** yang dihasilkan dari data teks:
    git clone https://github.com/nabilandf/Sentiment-Analysis.git
    cd Sentiment-Analysis
 
-`pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
-Jalankan notebook di Jupyter/Colab:
-`jupyter notebook Sentiment_Analysis.ipynb
+```bash
+jupyter notebook Sentiment_Analysis.ipynb
+```
 
-
-📊 Hasil Singkat
 ## 📊 Hasil Analisis
 Model awal menghasilkan akurasi sekitar **91%**, namun dengan kelemahan:
 - Model cenderung bias pada kelas **Netral** (karena data tidak seimbang).
