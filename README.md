@@ -2,28 +2,18 @@
 Sentiment analysis on the Merdeka Belajar curriculum using NLP techniques and Support Vector Machine (SVM).
 
 ## 📌 Fitur Utama
-- Crawling data dari Twitter menggunakan `tweet-harvest`.
-- Preprocessing teks:
-  - Case Folding
-  - Cleaning (hapus angka, URL, simbol, dll.)
-  - Normalisasi kata tidak baku
-  - Tokenisasi
-  - Stopword Removal
-  - Lemmatization
-- Visualisasi (WordCloud, distribusi panjang teks, frekuensi kata).
-- Pembobotan teks dengan **TF-IDF**.
-- Labeling sentimen (Positif, Negatif, Netral).
-- Klasifikasi menggunakan **Support Vector Machine (SVM)**.
-- Evaluasi performa model (akurasi, precision, recall, f1-score, confusion matrix).
+- Crawling data Twitter dengan `tweet-harvest`
+- Preprocessing teks: case folding, cleaning, normalisasi, tokenisasi, stopword removal, lemmatization
+- Visualisasi: WordCloud, distribusi teks, frekuensi kata
+- Pembobotan teks dengan **TF-IDF**
+- Labeling sentimen: Positif, Negatif, Netral
+- Klasifikasi dengan **SVM**
+- Evaluasi: akurasi, precision, recall, f1-score, confusion matrix
 
-## ⚙️ Teknologi yang Digunakan
-- **Python** (Google Colab / Jupyter Notebook)
-- **Library utama**:
-  - pandas, numpy → pengolahan data
-  - matplotlib, seaborn, wordcloud → visualisasi
-  - scikit-learn → preprocessing & machine learning
-  - nltk, regex → text preprocessing
-  - imbalanced-learn → penanganan data tidak seimbang
+## ⚙️ Teknologi
+- **Python** (Google Colab / Jupyter Notebook)  
+- **Library**: pandas, numpy, matplotlib, seaborn, wordcloud, scikit-learn, nltk, regex, imbalanced-learn
+
   - 
 ## 📂 Struktur File
 - `Sentiment_Analysis.ipynb` → Notebook utama (Google Colab).
@@ -42,10 +32,10 @@ Berikut contoh **Wordcloud** yang dihasilkan dari data teks:
    git clone https://github.com/nabilandf/Sentiment-Analysis.git
    cd Sentiment-Analysis
 
-pip install -r requirements.txt
+`pip install -r requirements.txt
 
 Jalankan notebook di Jupyter/Colab:
-jupyter notebook Sentiment_Analysis.ipynb
+`jupyter notebook Sentiment_Analysis.ipynb
 
 
 📊 Hasil Singkat
