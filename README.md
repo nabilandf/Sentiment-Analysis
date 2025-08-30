@@ -10,11 +10,10 @@ Sentiment analysis on the Merdeka Belajar curriculum using NLP techniques and Su
 - Klasifikasi dengan **SVM**
 - Evaluasi: akurasi, precision, recall, f1-score, confusion matrix
 
-## ⚙️ Teknologi
+## ⚙️ Tools
 - **Python** (Google Colab / Jupyter Notebook)  
 - **Library**: pandas, numpy, matplotlib, seaborn, wordcloud, scikit-learn, nltk, regex, imbalanced-learn
 
-  - 
 ## 📂 Struktur File
 - `Sentiment_Analysis.ipynb` → Notebook utama (Google Colab).
 - `Sentiment_Analysis.py` → Versi script Python.
