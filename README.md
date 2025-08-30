@@ -21,11 +21,6 @@ Sentiment analysis on the Merdeka Belajar curriculum using NLP techniques and Su
 - `Data.xlsx` → Dataset hasil crawling (contoh).
 - `requirements.txt` → Dependensi project.
 
-- ### 🔤 Visualisasi Wordcloud
-Berikut contoh **Wordcloud** yang dihasilkan dari data teks:
-
-![Wordcloud](wordcloud.png)
-
 ## 🚀 Cara Menjalankan
 1. Clone repository ini:
    ```bash
@@ -39,6 +34,10 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook Sentiment_Analysis.ipynb
 ```
+- ### 🔤 Visualisasi Wordcloud
+Berikut contoh **Wordcloud** yang dihasilkan dari data teks:
+
+![Wordcloud](wordcloud.png)
 
 ## 📊 Hasil Analisis
 Model awal menghasilkan akurasi sekitar **91%**, namun dengan kelemahan:
