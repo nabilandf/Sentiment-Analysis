@@ -27,10 +27,12 @@ Sentiment analysis on the Merdeka Belajar curriculum using NLP techniques and Su
    git clone https://github.com/nabilandf/Sentiment-Analysis.git
    cd Sentiment-Analysis
 
+Install dependensi:
 ```bash
 pip install -r requirements.txt
 ```
 
+Jalankan notebook:
 ```bash
 jupyter notebook Sentiment_Analysis.ipynb
 ```
