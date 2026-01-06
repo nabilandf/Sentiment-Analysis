@@ -36,7 +36,7 @@ Jalankan notebook:
 jupyter notebook Sentiment_Analysis.ipynb
 ```
 - ### 🔤 Visualisasi Wordcloud
-Berikut contoh **Wordcloud** yang dihasilkan dari data teks:
+Berikut **Wordcloud** yang dihasilkan dari data teks:
 
 ![Wordcloud](wordcloud.png)
 
