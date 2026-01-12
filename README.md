@@ -38,7 +38,7 @@ jupyter notebook Sentiment_Analysis.ipynb
 - ### 🔤 Visualisasi Wordcloud
 Berikut **Wordcloud** yang dihasilkan dari data teks:
 
-![Wordcloud](Wordcloud .png)
+![Wordcloud](Wordcloud_.png)
 
 ## 📊 Hasil Analisis
 Model awal menghasilkan akurasi sekitar **91%**, namun dengan kelemahan:
